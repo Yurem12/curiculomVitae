@@ -1,0 +1,69 @@
+/* polices d'écritures */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {font-family: 'Advent Pro';}
+
+body {
+    background-color: grey;
+}
+
+/* Barre de navigation */
+#navbar {
+    /* Apparence */
+    font-size: max(12px, 1vw);
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    opacity: 0.8;
+    left: 0px;
+    top: 0px;
+    min-height: 50px;
+    /* Flexbox */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#textNav {
+    color: white;
+    text-decoration: none;
+    /* Flexbox */
+    float: left;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    transform: translateX(0%);
+}
+
+/* Pour décoler l'écriture du bord */
+
+#textNav li {
+    margin-right: 2%;
+}
+
+/* Logos réseaux */
+
+#logos {
+    /* Apparence */
+    font-size: 2vw;
+    /* Flexbox */
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    transform: translateX(-20%);
+}
+
+/* Premier palier */

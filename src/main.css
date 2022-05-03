@@ -73,7 +73,7 @@ a {
     transform: translateX(0%);
 }
 
-#textNav li, a {
+#textNav li, #textNav a {
     color: white;
     font-weight: 500;
 }

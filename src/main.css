@@ -73,7 +73,7 @@ a {
     transform: translateX(0%);
 }
 
-#textNav li, #textNav a {
+#textNav li, #navbar a {
     color: white;
     font-weight: 500;
 }
@@ -108,13 +108,14 @@ a {
 
 footer {
     /* apparence */
+    font-size: 0.5em;
     position: absolute;
     left: 0;
     height: 10vh;
     width: 100%;
     opacity: 0.8;
     background-color: var(--darkModeNav);
-    color: var(--darkModeText);
+    color: white;
     size: cover;
     z-index: 1;
     /* flexbox */

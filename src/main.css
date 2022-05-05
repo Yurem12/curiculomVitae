@@ -106,6 +106,18 @@ a {
 
 /* Footer */
 
+#formContact {
+    /* apparance */
+
+    /* flexbox */
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
 footer {
     /* apparence */
     font-size: 0.5em;

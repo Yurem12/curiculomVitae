@@ -84,13 +84,15 @@
 
 /* section 2 */
 
+#section2 p {font-size: calc(12px + 1vw);}
 
+#section2 h1 {font-size:calc(12px + 1.8vw);}
 
 /* Partie pour la responsive */
 
 @media all and (orientation:landscape) {
     #sections {
-        color: var(--darkModeText);
+        color: white;
         margin: 0%;
         /* flexbox */
         display: flex;
@@ -102,7 +104,7 @@
     }
 
     #sections a {
-        color: var(--darkModeText);
+        color: white;
     }
 
     #section1 {
@@ -114,7 +116,14 @@
         margin-top: 10vh;
     }
 
-    #section2 p {font-size: 0.5em;}
+    #section2 p {
+        font-size: 1.2vw;
+        color: var(--darkModeText);
+    }
+
+    #details p {
+        color: var(--darkModeText);
+    }
 
     #presentation {
         /* Apparence */
@@ -165,6 +174,10 @@
 }
 
 @media all and (orientation:portrait) {
+    .textColor {
+        color: var(--darkModeText);
+    }
+
     #section1 {
         margin-top: 30vh;
     }

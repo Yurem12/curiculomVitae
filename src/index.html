@@ -89,21 +89,16 @@
             </div>
         </section>
     </div>
-    <form action="./form.php" method="post" id="formContact">
-        <label>
-            Nom: <input type="text" name="formSurname" id="formSurname" placeholder="Votre nom ici">
-        </label>
-        <label>
-            Prénom: <input type="text" name="formName" placeholder="Votre prénom ici">
-        </label>
-        <label>
-            Email: <input type="email" name="formMail" id="formMail">
-        </label>
-        <label>
-            Message: <input type="text" name="formMsg" id="formMsg">
-        </label>
-        <button type="submit">Envoyer</button>
-    </form>
+    <!-- formulaire ajax -->
+    <div id="formulaire">
+        <label for="name">Nom</label>
+        <input type="text" id="name" placeholder="Votre nom">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Votre email">
+        <label for="message">Message</label>
+        <textarea  id="message" placeholder="Votre message"></textarea>
+        <button id="formBtn">
+    </div>
     <footer>
         <div id="copyrights">
             <li>Tout droits réservés, pour toutes volontés d'utilisations veuillez contacter le créateur de cette page.</li>
